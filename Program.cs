@@ -17,5 +17,8 @@ class Program
         {
             Console.WriteLine("Error: Name cannot be empty");
         }
+        
+        double average = StatisticsHelper.CalculateAverage(numbers);
+        Console.WriteLine("Average value is: " + average);
     }
 }
