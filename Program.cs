@@ -12,5 +12,10 @@ class Program
         Console.WriteLine("Enter your name:");
         string name = Console.ReadLine();
         Console.WriteLine("Hello, " + name);
+        
+        if (string.IsNullOrEmpty(name))
+        {
+            Console.WriteLine("Error: Name cannot be empty");
+        }
     }
 }
