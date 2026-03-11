@@ -16,7 +16,10 @@ public class StatisticsHelper
         return max;
     }
     
-    
+    public static int GetMin(int[] values)
+    {
+
+    }
     
     
     
