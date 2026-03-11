@@ -22,6 +22,9 @@ class Program
         Console.WriteLine("Average value is: " + average);
         
         double max = StatisticsHelper.CalculateMax(numbers);
-        Console.WriteLine("Maximum value is: " + average);
+        Console.WriteLine("Maximum value is: " + max);
+
+        double min = StatisticsHelper.CalculateMin(numbers);
+        Console.WriteLine("Minimum value is: " + min);
     }
 }

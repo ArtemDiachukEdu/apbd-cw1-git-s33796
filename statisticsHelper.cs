@@ -16,7 +16,7 @@ public class StatisticsHelper
         return max;
     }
     
-    public static int GetMin(int[] values)
+    public static int CalculateMin(int[] values)
     {
             int min = values[0];
             foreach (var v in values) if (v < min) min = v;
