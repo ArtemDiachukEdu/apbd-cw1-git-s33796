@@ -27,6 +27,6 @@ class Program
         double min = StatisticsHelper.CalculateMin(numbers);
         Console.WriteLine("Minimum value is: " + min);
 
-        Console.WriteLine("This is a different message from main branch")
+        Console.WriteLine("This is a message from feature-conflict branch")
     }
 }
